@@ -25,7 +25,7 @@ body {
   overflow: hidden;
 }
 .card {
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: white;
   overflow: hidden;
   position: relative;
@@ -60,18 +60,19 @@ body {
   font-size: 18px;
 }
 .card .data .name p:first-child {
-  font-weight: 700;
+  font-weight: bold;
 }
 .card .data .name p:last-child {
   color: var(--dark-grayish-blue);
 }
 .card .data p.city {
   color: var(--dark-grayish-blue);
+  font-size: 14px;
 }
 .card .stats {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -87,8 +88,8 @@ body {
 }
 .card .stats .box p:not(.special) {
   text-transform: capitalize;
-  font-size: 14px;
-  letter-spacing: 0.5px;
+  font-size: 11px;
+  letter-spacing: 1px;
   color: var(--dark-grayish-blue);
 }
 .bg img {
