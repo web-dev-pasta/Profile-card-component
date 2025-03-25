@@ -30,6 +30,7 @@ body {
   overflow: hidden;
   position: relative;
   max-width: 375px;
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.15);
 }
 .holder {
   padding: 0 20px;
@@ -83,12 +84,13 @@ body {
   gap: 5px;
 }
 .card .stats .box p.special {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
+  text-transform: uppercase;
 }
 .card .stats .box p:not(.special) {
   text-transform: capitalize;
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: 1px;
   color: var(--dark-grayish-blue);
 }
